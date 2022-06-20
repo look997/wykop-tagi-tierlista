@@ -1,0 +1,18 @@
+{
+	"cSpell.words": [
+		"coovkie",
+		"Extr",
+		"kanal",
+		"kanaly",
+		"onresizeob",
+		"resizeob",
+		"sel",
+		"telegazette",
+		"testid"
+	],
+	"search.exclude": {
+		".svelte-kit": true,
+		"build": true
+	},
+	"commentTranslate.hover.enabled": true
+}
