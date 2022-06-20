@@ -16,7 +16,7 @@ const config = {
 		// 	assets: 'build',
 		// 	precompress: false
 		// })
-		adapter: adapter({ out: 'build' }),
+		adapter: adapter({ out: 'public' }),
 		browser: {
       router: false
     }
