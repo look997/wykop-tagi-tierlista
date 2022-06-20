@@ -34,7 +34,7 @@
 	<br>
 	Sprawdź format pliku JSON listy,<br>
 	kopiując listę do schowka - skrót <kbd>Ctrl</kbd>+<kbd>C</kbd> lub (o ile obsługuje) przycisk "Skopiuj listę do schowka",
-	<br>po czym sklej do dowolnego edytor tekstu
+	<br>po czym wklej do dowolnego edytor tekstu
 </div>
 
 <style>
