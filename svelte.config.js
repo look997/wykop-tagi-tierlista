@@ -1,26 +1,19 @@
-// import adapter from '@sveltejs/adapter-auto';
-// import adapter from '@sveltejs/adapter-static';
-import adapter from '@sveltejs/adapter-node';
-// import Inspector from 'vite-plugin-svelte-inspector';
+// svelte.config.js
+import adapter from '@sveltejs/adapter-static';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	kit: {
-    vite: {
-      // plugins: [Inspector()],
-    },
-		// adapter: adapter()
-		// adapter: adapter({
-		// 	// default options are shown
-		// 	pages: 'build',
-		// 	assets: 'build',
-		// 	precompress: false
-		// })
-		adapter: adapter({ out: 'public' }),
-		browser: {
-      router: false
+export default {
+  kit: {
+    adapter: adapter({
+      // default options are shown
+      pages: 'public',
+      assets: 'public',
+      fallback: null,
+      precompress: false
+    }),
+    
+    prerender: {
+      // This can be false if you're using a fallback (i.e. SPA mode)
+      default: true
     }
-	}
+  }
 };
-
-export default config;
