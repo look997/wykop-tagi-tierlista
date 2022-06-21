@@ -27,9 +27,9 @@
 	Wklejanie listy ze schowka - skrót <kbd>Ctrl</kbd>+<kbd>V</kbd> lub (o ile obsługuje) przycisk "Wklej listę ze schowka"
 	<br>
 	<br>
-	Użycie listy z URLa - {location.origin}?url=https://example.com/lista.json
+	Użycie listy z URLa - {location.origin}?url=https://raw.githubusercontent.com/look997/wykop-tagi-tierlista/main/static/example-list.json
 	<br>
-	...gdzie https://example.com/lista.json to dowolny URL do pliku JSON z listą
+	...gdzie https://raw.githubusercontent.com/look997/wykop-tagi-tierlista/main/static/example-list.json to dowolny URL do pliku JSON z listą
 	<br>
 	<br>
 	Sprawdź format pliku JSON listy,<br>
