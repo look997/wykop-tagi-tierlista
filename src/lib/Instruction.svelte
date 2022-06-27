@@ -35,6 +35,13 @@
 	Sprawdź format pliku JSON listy,<br>
 	kopiując listę do schowka - skrót <kbd>Ctrl</kbd>+<kbd>C</kbd> lub (o ile obsługuje) przycisk "Skopiuj listę do schowka",
 	<br>po czym wklej do dowolnego edytor tekstu
+	<br>
+	<br>
+	Zaawansowane<br>
+	Żeby uzyskać aktualną listę popularności tagów, wejdź na https://www.wykop.pl/tagi/ i w devTools użyj komendy:<br>
+	<code>document.querySelector("div.fix-tagline").textContent.replaceAll(/\s|\t|\n/g,"").replaceAll(")",")\n").split(/\n/).map(a=>({"{"}tags:[a],label:""}));</code>
+	<br>
+	i wklej na stronie tier listy.
 </div>
 
 <style>

@@ -1,5 +1,3 @@
-// `https://www.wykop.pl/tagi/`;
-// ``.trim().replaceAll(" (","(").split(" ").map(a=>({tagi:[a],label:""}));
 export const updateDate = "03-06-2022";
 export const list = [
   {
